@@ -1,0 +1,35 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# Model cache and data
+models/cache/
+models/cache/**/*
+data/
+logs/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor files
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# Python
+.Python
+env/
+venv/
+.venv/
